@@ -6,8 +6,8 @@ function parent() {
     return innerVariable;
   }
 }
-parent();
-// var outerScope = parent;
+
+var outerScope = parent();
 
 // var innerScope = outerScope();
 

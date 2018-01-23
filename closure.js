@@ -7,6 +7,8 @@ function parent() {
   }
 }
 
+child();
+
 var outerScope = parent;
 
 var innerScope = outerScope();
